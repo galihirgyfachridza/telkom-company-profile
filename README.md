@@ -7,12 +7,15 @@ Konflik terjadi pada file README.md akibat perbedaan perubahan antara Laptop A d
 
 ## Riwayat Praktikum Git
 
+output git log --oneline --graph --decorate --all
+
+```
 * c6cf039 (HEAD -> main, origin/main, origin/HEAD) docs: perbarui README dari laptop C
 * 22a3cf5 (tag: v1.0.0) Revert "merge: selesaikan conflict README"
 *   417212d merge: selesaikan conflict README
 |\  
 | * 2d6d1f6 docs: perubahan ekstra dari Laptop B
-* | 531c031 docs: perubahan dari Laptop A
+| * 531c031 docs: perubahan dari Laptop A
 |/  
 * 4572012 docs: perbarui README dari Laptop B
 *   d6d7bd4 merge: selesaikan conflict navbar
@@ -26,3 +29,4 @@ Konflik terjadi pada file README.md akibat perbedaan perubahan antara Laptop A d
 * ef5b8af feat: hubungkan database dan tampilkan program studi
 * 31f94e7 feat: tambahkan layout dasar dan stylesheet
 * 7aacc07 chore: inisialisasi project dan dokumentasi awal
+```
